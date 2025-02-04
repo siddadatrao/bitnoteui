@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "BitNote Landing Page",
   "scripts": {
-    "start": "http-server ./public -p 8080 --no-cache",
-    "dev": "http-server ./public -p 8080 --no-cache"
+    "start": "http-server ./public -a 0.0.0.0 -p 3000 --no-cache",
+    "dev": "http-server ./public -a 0.0.0.0 -p 3000 --no-cache"
   },
   "dependencies": {
     "http-server": "^14.1.1"
