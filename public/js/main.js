@@ -43,8 +43,8 @@ function startBinaryAnimation() {
 }
 
 function downloadApp() {
-    // Direct link to v1.0.2-beta release
-    const releaseUrl = 'https://github.com/siddadatrao/bitnote/releases/download/v1.0.2-beta/BitNote.dmg';
+    // Direct link to latest release DMG
+    const releaseUrl = 'https://github.com/siddadatrao/bitnote/releases/download/v3.0.6/BitNote-3.0.6-arm64.dmg';
     window.location.href = releaseUrl;
 }
 
